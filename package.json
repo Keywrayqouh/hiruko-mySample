@@ -22,9 +22,9 @@
     "express": "^4.17.1",
     "nodemon": "^1.14.3",
     "package.json": "^2.0.1",
-    "socket.io": "^2.0.4"
+    "socket.io": "^1.7.4"
   },
   "engines": {
-    "node": "10.x"
+    "node": "v10.5"
   }
 }
