@@ -1,0 +1,113 @@
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    background-color: rgb(255, 30, 79)
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Comfortaa', sans-serif;
+    margin: 0px;
+}
+
+div#change_username, section#input_zone {
+    border: 5px outset black
+}
+
+div#change_username {
+    height: 200px;
+    margin-left: 30%;
+    margin-right:30%;
+    display: inline-block;
+  
+}
+
+section#chatroom {
+    border: 10px inset black;
+    height: 60%;
+    width: 50%;
+    overflow: auto;
+    margin-left: 5%;
+}
+
+section#onlineRoom {
+    border: 10px inset grey;
+    height: 60%;
+    width: 30%;
+    float: right;
+    position: relative;
+    margin-top: -30%;
+    margin-right: 7%;
+}
+
+
+section#input_zone {
+    height: 10%;
+    width: 50%;
+    text-align: center;
+    margin-left: 5%;
+    background-color: rgb(169, 199, 245);
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+input#username {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+input#message {
+    display: inline-block;
+    width: 70%;
+    height: 70%;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 2vh;
+}
+
+button#send_message {
+    display: inline-block;
+    height: 70%;
+    width: 20%;
+
+}
+
+p.message {
+    margin: 0px;
+    
+    height: 40px;
+    font-size: 2vh;
+    font-family: 'Comfortaa', sans-serif;
+    padding: 1vh;
+}
+
+.message:nth-child(even) {
+    background-color: #81DAF5;
+}
+
+.message:nth-child(odd) {
+    background-color: #81BEF7;
+}
